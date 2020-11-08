@@ -1,0 +1,33 @@
+.title{
+    color: black;
+}
+
+.text{
+    color: black;
+    font-size: 14px;
+}
+
+.courseimage{
+    width : 120px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.courseimage2{
+    width : 175px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.Deck{
+    background-color: cornflowerblue;
+    margin-top:25px;
+    margin-left: 75px;
+    width : 1200px;
+    height: auto;
+    justify-content: center;
+}

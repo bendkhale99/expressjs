@@ -1,0 +1,25 @@
+.messageHeading{
+    color: black;
+    text-align: left;
+}   
+
+.messageTitle{
+    color: black;
+    text-align: left;
+} 
+
+.messageBody1{
+    color: black;
+    font-size: medium;
+    text-align: left;
+} 
+
+.messageBody2{
+    color: black;
+    font-size: xx-large;
+    text-align: left;
+}
+
+.messageClick{
+    float: left;
+}

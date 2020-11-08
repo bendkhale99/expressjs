@@ -1,0 +1,16 @@
+.speciality{
+    color: black;
+    background-color: cornflowerblue;
+    margin: 20px;
+    display:flex; 
+    flex-direction:row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.speciality-text{
+    background-color: rgb(195, 200, 209);
+    color: black;
+    text-align: left;
+    
+}
