@@ -7,15 +7,15 @@ function Navigation() {
     <>
   
   <Navbar bg="primary" variant="dark" className="navbar">
-  <img src={process.env.PUBLIC_URL + '/Logo-05.jpg'} class="Logo" alt="test" height="100" />
+  <img src={process.env.PUBLIC_URL + '/Logo-01.png'} class="Logo" alt="test" height="100" />
     <Nav className="mr-auto">
-      <Nav.Link href="#home" className="navtext">Courses</Nav.Link>
-      <Nav.Link href="#features" className="navtext">About Us</Nav.Link>
-      <Nav.Link href="#pricing" className="navtext">Contact Us</Nav.Link>
+      <Nav.Link href="#Home" className="navtext">Home</Nav.Link>
+      <Nav.Link href="#Courses" className="navtext">Courses</Nav.Link>
+      <Nav.Link href="#About Us" className="navtext">About Us</Nav.Link>
+      <Nav.Link href="#Contact Us" className="navtext">Contact Us</Nav.Link>
     </Nav>
-
-    <Button variant="outline-light">Login</Button>
-
+    <Button variant="outline-light">Student Login</Button>
+    <Button variant="outline-light">Teacher Login</Button>
 
     </Navbar>
     

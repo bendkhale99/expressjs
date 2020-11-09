@@ -5,6 +5,9 @@
 
 .footertext{
     color: white;
-    font-size: large;
+    font-size: 15px;
     font-style: initial;
+}
+th{
+    font-weight: normal;
 }

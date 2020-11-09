@@ -26,7 +26,7 @@ import './footer.css';
 function Footer() {
 return(
 <div className="footer">
-<Table    hover className="footertext">
+<Table    className="footertext">
   <thead>
     <tr>
       <th>About MandleBrot</th>
@@ -47,7 +47,7 @@ return(
 
 
 
-<p className="footerext">@2020, MandelBrot, All Rights Reserved</p>
+<p className="footertext">@2020, MandelBrot, All Rights Reserved</p>
 
 </div>
 )

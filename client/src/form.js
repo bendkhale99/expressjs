@@ -52,7 +52,7 @@ return(
     </Form.Group>
   
     <Button variant="primary" type="submit">
-      Buy Now
+      Register Now
     </Button>
   </Form>
 )
