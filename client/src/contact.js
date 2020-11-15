@@ -4,7 +4,7 @@ import './contact.css';
 
 function Contact() {
 return(
-<Table striped  hover>
+<Table striped  hover id="Contact">
   <thead>
     <tr>
       <th>Location</th>
@@ -14,7 +14,7 @@ return(
   </thead>
   <tbody>
     <tr>
-      <td>Nanded City, Pune, Maharashtra</td>
+      <td>Pune, Maharashtra</td>
       <td>contactus@mandelbrot.com</td>
       <td>+91 9764068370</td>
     </tr>

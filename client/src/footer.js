@@ -29,18 +29,17 @@ return(
 <Table    className="footertext">
   <thead>
     <tr>
-      <th>About MandleBrot</th>
-      <th>Contact us</th>
-      <th>Terms Conditions</th>
-      <th>Privacy Policy </th>
+      <th><a href="about">About MandleBrot</a></th>
+      <th><a href="Contact">Contact us</a></th>
+      <th ><a href="terms">Terms Conditions</a></th>
+      <th><a href="privacy">Privacy Policy</a></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Courses</td>
-      <td>Careers</td>
-      <td>Book Demo</td>
-      <td>FAQ</td>
+      <td><a href="Courses">Courses</a></td>
+      <td><a href="Careers">Careers</a></td>
+      <td><a href="FAQ">FAQ</a></td>
     </tr>
   </tbody>
 </Table>

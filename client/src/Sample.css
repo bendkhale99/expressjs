@@ -1,5 +1,6 @@
 .Title{
     color: #000000;
+    
 }
 
 .Body{
@@ -8,4 +9,5 @@
 
 .Sample{
     margin:20px;
+    text-align: center;
 }

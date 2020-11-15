@@ -7,6 +7,10 @@
     font-size: 14px;
 }
 
+.btn{
+    margin: 20px;
+}
+
 .courseimage{
     width : 120px;
     height: auto;
@@ -30,4 +34,8 @@
     width : 1200px;
     height: auto;
     justify-content: center;
+}
+
+.desc{
+    text-align: left;
 }

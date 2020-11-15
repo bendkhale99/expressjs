@@ -5,19 +5,24 @@ import './carousel.css';
 function Slider() {
 return (
 <>
-<CardDeck className="Deck">
+<CardDeck className="Deck" >
   <Card>
     <Card.Img  className="courseimage" variant="top" src={process.env.PUBLIC_URL + '/python.png'} />
     <Card.Body>
       <Card.Title className="title">Python</Card.Title>
       <Card.Text className ="text">
-        Techniques/Sutras to solve mathematical arithmetics in easy and faster way.
-        It consists of 16 Sutras (Formulae) and 13 sub-sutras (Sub Formulae) which can be used for
-        problems involved in arithmetic, algebra, geometry, calculus, conics.
+        <ul className="desc">
+          <li>Class 5-8</li>
+          <li><b>32</b> hours of live online training</li>
+          <li>One Week Free Demo</li>
+          <li>Rs.<b>3999</b> <s>5000</s></li>
+        </ul>
       </Card.Text>
+      <Card.Text className ="Price Te"></Card.Text>
     </Card.Body>
     <Card.Footer>
-    <Button variant="primary" size="lg" active>Book Course</Button>
+    <Button variant="primary" size="sm" href="python" className="btn" active>LEARN MORE</Button>
+    <Button variant="primary" size="sm" className="btn" active>ENROLL NOW</Button>
     </Card.Footer>
   </Card>
   <Card>
@@ -25,14 +30,17 @@ return (
       <Card.Body>
         <Card.Title className="title">Sudoku</Card.Title>
           <Card.Text className="text">
-            Sudoku is a logic puzzle. Any person who does not even know numbers but can think 
-            logically can do it.  
-            There are 9 types of intelligence and logic is just one of them. 
-            You become logically intelligent after rigourous training of sudoku.
+          <ul className="desc">
+          <li>Class 5-8</li>
+          <li><b>16</b> hours of live online training</li>
+          <li>One Week Free Demo</li>
+          <li>Rs.<b>1999</b> <s>3000</s></li>
+          </ul>
           </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <Button variant="primary" size="lg" active>Book Course</Button>
+      <Button variant="primary" size="sm" href="sudoku" className="btn" active>LEARN MORE</Button>
+      <Button variant="primary" size="sm" className="btn" active>ENROLL NOW</Button>
     </Card.Footer>
   </Card>
   <Card>
@@ -40,13 +48,17 @@ return (
       <Card.Body>
         <Card.Title className="title">Chess</Card.Title>
           <Card.Text className="text">
-            This is a wider card with supporting text below as a natural lead-in to
-            additional content. This card has even longer content than the first to
-            show that equal height action.
+          <ul className="desc">
+          <li>Class 3-9</li>
+          <li><b>50</b> hours of live online training</li>
+          <li>One Week Free Demo</li>
+          <li>Rs.<b>7999</b> <s>9000</s></li>
+          </ul>
           </Card.Text>
       </Card.Body>
       <Card.Footer>
-        <Button variant="primary" size="lg" active>Book Course</Button>
+        <Button variant="primary" size="sm" href="chess" className="btn" active>LEARN MORE</Button>
+        <Button variant="primary" size="sm" className="btn" active>ENROLL NOW</Button>
       </Card.Footer>
   </Card>
 </CardDeck>
@@ -57,13 +69,17 @@ return (
       <Card.Body>
         <Card.Title className="title">Rubiks Cube</Card.Title>
           <Card.Text className ="text">
-            Techniques/Sutras to solve mathematical arithmetics in easy and faster way.
-            It consists of 16 Sutras (Formulae) and 13 sub-sutras (Sub Formulae) which can be used for
-            problems involved in arithmetic, algebra, geometry, calculus, conics.
+          <ul className="desc">
+          <li>Class 5-8</li>
+          <li><b>16</b> hours of live online training</li>
+          <li>One Week Free Demo</li>
+          <li>Rs.<b>1999</b> <s>3000</s></li>
+          </ul>
           </Card.Text>
       </Card.Body>
       <Card.Footer>
-        <Button variant="primary" size="lg" active>Book Course</Button>
+        <Button variant="primary" size="sm" href="rubik" className="btn" active>LEARN MORE</Button>
+        <Button variant="primary" size="sm" className="btn" active>ENROLL NOW</Button>
       </Card.Footer>
   </Card>
   <Card>
@@ -71,14 +87,17 @@ return (
       <Card.Body>
         <Card.Title className="title">Web Development</Card.Title>
           <Card.Text className="text">
-            Sudoku is a logic puzzle. Any person who does not even know numbers but can think 
-            logically can do it.  
-            There are 9 types of intelligence and logic is just one of them. 
-            You become logically intelligent after rigourous training of sudoku.
+          <ul className="desc">
+          <li>Class 5-8</li>
+          <li><b>50</b> hours of live online training</li>
+          <li>One Week Free Demo</li>
+          <li>Rs.<b>7999</b> <s>9000</s></li>
+          </ul>
           </Card.Text>
       </Card.Body>
       <Card.Footer>
-      <Button variant="primary" size="lg" active>Book Course</Button>
+          <Button variant="primary" size="sm" href="webdev" className="btn" active>LEARN MORE</Button>
+          <Button variant="primary" size="sm" className="btn" active>ENROLL NOW</Button>
       </Card.Footer>
   </Card>
   <Card>
@@ -86,13 +105,17 @@ return (
       <Card.Body>
         <Card.Title className="title">Maths Olympiad</Card.Title>
           <Card.Text className="text">
-            This is a wider card with supporting text below as a natural lead-in to
-            additional content. This card has even longer content than the first to
-            show that equal height action.
+          <ul className="desc">
+          <li>Class 5-8</li>
+          <li><b>50</b> hours of live online training</li>
+          <li>One Week Free Demo</li>
+          <li>Rs.<b>7999</b> <s>9000</s></li>
+          </ul>
           </Card.Text>
       </Card.Body>
       <Card.Footer>
-        <Button variant="primary" size="lg" active>Book Course</Button>
+      <Button variant="primary" size="sm" href="matholympiad" className="btn" active>LEARN MORE</Button>
+      <Button variant="primary" size="sm" className="btn" active>ENROLL NOW</Button>
       </Card.Footer>
   </Card>
 </CardDeck>

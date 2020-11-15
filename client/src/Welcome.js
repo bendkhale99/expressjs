@@ -10,12 +10,12 @@ class Welcome extends Component{
                 <h3 className="welcome">Brought to you by experts from </h3>
                 <div className="sidebyside">
                     <Button variant="primary" className="brand">IIT</Button>{' '}
-                    <Button variant="secondary" className="brand">Google</Button>{' '}
+                    <Button variant="secondary" className="brand">Flipkart</Button>{' '}
                     <Button variant="success" className="brand">Microsoft</Button>{' '}
                     <Button variant="warning" className="brand">IISC</Button>{' '}
-                    <Button variant="danger" className="brand">Stanford</Button>
+                    <Button variant="danger" className="brand">Adobe</Button>
                 </div>
-  <Button variant="link">Link</Button>
+ 
 </>  
             )
         }

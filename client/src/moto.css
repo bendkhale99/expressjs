@@ -1,26 +1,39 @@
 
 .messageHeading{
-    color: black;
+    color: rgb(185, 18, 18);
     text-align: left;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    font-variant-caps: all-petite-caps;
+    background-color: teal; 
 }   
 
 .messageTitle{
-    color: black;
-    text-align: left;
+    color: rgb(204, 24, 24);
+    text-align: center;
+    font-size: medium;
+    font-weight: bolder;
 } 
 
 .messageBody1{
-    color: black;
-    font-size: medium;
-    text-align: left;
+    color: rgb(28, 3, 138);
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
 } 
 
 .messageBody2{
     color: black;
-    font-size: xx-large;
-    text-align: left;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bolder;
 }
 
 .messageClick{
     float: left;
+}
+.moto{
+    margin-left: 30px;
+    margin-right: 30px;
 }
