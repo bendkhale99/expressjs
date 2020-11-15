@@ -1,0 +1,26 @@
+
+
+.messageBody3{
+    color: rgb(28, 3, 138);
+    font-size: 16px;
+    text-align: center;
+    font-weight: bolder;
+} 
+
+.messageBody4{
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.messageBody5{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.moto1{
+    margin-left: 30px;
+}
